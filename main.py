@@ -1,6 +1,6 @@
 def main():
     print("Enter scores separated by spaces:")
-    user_input = input().strip()
+    user_input = input()
 
     scores = list(map(float, user_input.split()))
 
